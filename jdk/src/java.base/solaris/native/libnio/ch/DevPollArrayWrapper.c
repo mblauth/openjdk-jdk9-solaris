@@ -36,8 +36,6 @@
 extern "C" {
 #endif
 
-typedef uint32_t        caddr32_t;
-
 /* /dev/poll ioctl */
 #define         DPIOC   (0xD0 << 8)
 #define DP_POLL         (DPIOC | 1)     /* poll on fds in cached in /dev/poll */
